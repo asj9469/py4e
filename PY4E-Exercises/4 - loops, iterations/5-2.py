@@ -8,7 +8,7 @@
 # Maximum is 10
 # Minimum is 2
 
-#### first approach functions
+#### first approach 3 - functions
 inp = input("Enter a number or 'done': ")
 entries = []
 
@@ -28,7 +28,7 @@ print("Maximum is", max(entries))
 print("Minimum is", min(entries))
 
 
-#### another approach using functions
+#### another approach using 3 - functions
 # def getMin(arr, smallest):
 #     for i in arr:
 #         if smallest is None:
