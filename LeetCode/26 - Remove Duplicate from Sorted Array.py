@@ -14,7 +14,6 @@
 
 ####################################################
 # My Initial Approach
-from typing import List
 
 def removeDuplicates(self, nums: List[int]) -> int:
     unique = dict()
@@ -40,6 +39,7 @@ def removeDuplicates(self, nums: List[int]) -> int:
 # NeetCode Optimized Approach
 # super simple - using two pointers to go through the array once each, left pointer only gets updated when unique value is copied over
 
+def removeDuplicates(self, nums: List[int]) -> int:
     l = 1
     for r in range(1, len(nums)):
         if nums[r] != nums[r - 1]:
