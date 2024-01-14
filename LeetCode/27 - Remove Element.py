@@ -18,6 +18,8 @@
 
 ####################################################
 # My Approach
+# Runtime 34 ms
+# Beats 87.55% of users with Python3
 
 class Solution:
     def removeElement(self, nums: List[int], val: int) -> int:
