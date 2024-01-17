@@ -39,3 +39,16 @@ class Solution:
 
 ####################################################
 # NeetCode Optimized Approach
+# Using partition method to bring all the non vals to the front
+# 34 ms | beats 87% of users with Python 3
+# 17.30 MB | beats 18% of users with Pyhton 3
+class Solution:
+    def removeElement(self, nums: List[int], val: int) -> int:
+        k = 0
+
+        for i in range(len(nums)):
+            if nums[i] != val:
+                nums[k] = nums[i]
+                k+=1
+
+        return k
