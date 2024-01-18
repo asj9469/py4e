@@ -1,0 +1,46 @@
+# Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+#
+# An input string is valid if:
+#       Open brackets must be closed by the same type of brackets.
+#       Open brackets must be closed in the correct order.
+#       Every close bracket has a corresponding open bracket of the same type.
+# Example 1:
+#   Input: s = "()"
+#   Output: true
+#
+# Example 2:
+#   Input: s = "()[]{}"
+#   Output: true
+#
+# Example 3:
+#   Input: s = "(]"
+#   Output: false
+
+####################################################
+# My Initial Approach
+# Runtime 34ms Beats 81.81% of users with Python3
+# Memory 17.46 MB Beats 9.75% of users with Python3
+
+class Solution:
+    def isValid(self, s: str) -> bool:
+
+        dict = {
+            "]": "[",
+            "}": "{",
+            ")": "("
+        }
+
+        par = []
+        for i in s:
+            if len(par) == 0 and i in dict.keys():
+                return False
+
+            if i in dict.values():
+                par.append(i)
+            else:
+                if par[-1] == dict.get(i):
+                    par.pop()
+                else:
+                    return False
+
+        return True if len(par) == 0 else False
