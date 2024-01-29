@@ -34,7 +34,6 @@ class Solution:
         # approach 2: check if the value is in dict and return true if it does
         # Runtime 428 ms Beats 70.03% of users with Python3
         # Memory 34.71 MB Beats 14.01% of users with Python3
-
         count = dict()
         for i in range(len(nums)):
             if count.get(nums[i], 0) == 0:
