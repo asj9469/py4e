@@ -23,7 +23,8 @@
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
 
-        # store each index as key, and the amount they need to add up to the target as value
+        # store each number as key, and store its index as value
+        # and then see if target - number is in dictionary, return the indices
         dic = {}
 
         for i in range(len(nums)):
