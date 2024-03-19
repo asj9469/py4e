@@ -17,30 +17,51 @@
 #   Output: false
 
 ####################################################
-# My Initial Approach
-# Runtime 34ms Beats 81.81% of users with Python3
-# Memory 17.46 MB Beats 9.75% of users with Python3
-
+# My New Approach
+# time complexity: O(n)
+# space complexity: O(n)
 class Solution:
     def isValid(self, s: str) -> bool:
 
-        dict = {
-            "]": "[",
-            "}": "{",
-            ")": "("
-        }
+        stack = []
+        pairs = {")" : "(", "]" : "[", "}" : "{" }
 
-        par = []
+        if s[0] in pairs:
+            return False
+
         for i in s:
-            if len(par) == 0 and i in dict.keys():
-                return False
-
-            if i in dict.values():
-                par.append(i)
-            else:
-                if par[-1] == dict.get(i):
-                    par.pop()
-                else:
+            if i in pairs:
+                if len(stack) == 0:
                     return False
+                if stack[-1] == pairs[i]:
+                    stack.pop()
+                    continue
+            stack.append(i)
 
-        return True if len(par) == 0 else False
+        return len(stack) == 0
+
+
+# My Initial Approach
+# Runtime 34ms Beats 81.81% of users with Python3
+# Memory 17.46 MB Beats 9.75% of users with Python3
+#
+#     dict = {
+#         "]": "[",
+#         "}": "{",
+#         ")": "("
+#     }
+#
+#     par = []
+#     for i in s:
+#         if len(par) == 0 and i in dict.keys():
+#             return False
+#
+#         if i in dict.values():
+#             par.append(i)
+#         else:
+#             if par[-1] == dict.get(i):
+#                 par.pop()
+#             else:
+#                 return False
+#
+#     return True if len(par) == 0 else False
