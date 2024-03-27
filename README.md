@@ -16,3 +16,7 @@ Winter break's over, and I pretty much got down the basics. I am now practicing 
 
 [3/5/24]\
 Started studying algorithms more in-depth with Grokking Algorithms (added source code files)
+
+[3/20/24]\
+It's spring break, and now I can solve some medium problems comfortably. I've been solving leetcode problems pretty consistently, but not all of them are uploaded here.\
+Intensely studied for a coding interview, passed technical interview (coding), completed phase 2 behavioral interview today, waiting to hear back!

@@ -17,7 +17,7 @@ commands = [
 ]
 
 currDir = ""
-entireDir = []
+entireDir = [] # [[directory, set()]]
 newFile = ""
 
 for c in commands:
