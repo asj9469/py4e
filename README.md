@@ -20,3 +20,6 @@ Started studying algorithms more in-depth with Grokking Algorithms (added source
 [3/20/24]\
 It's spring break, and now I can solve some medium problems comfortably. I've been solving leetcode problems pretty consistently, but not all of them are uploaded here.\
 Intensely studied for a coding interview, passed technical interview (coding), completed phase 2 behavioral interview today, waiting to hear back!
+
+[3/27/24]\
+I heard back that I received positive feedback from the behavioral interview (passed final round!). I will be calling the recruiter tomorrow to discuss the offer!!!
