@@ -14,6 +14,9 @@ I decided to learn Python over my Sophomore winter break. This is a repository t
 [1/13/24]\
 Winter break's over, and I pretty much got down the basics. I am now practicing data structures problems with Python whenever possible.
 
+[2/20/24]\
+Received an email that I was selected for an internship interview! (backend engineering role) - not related to Python but wanted to add it here
+
 [3/5/24]\
 Started studying algorithms more in-depth with Grokking Algorithms (added source code files)
 
