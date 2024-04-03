@@ -21,7 +21,7 @@ I took a technical interview in Python (1 Leetcode Easy & 1 Leetcode Medium). I 
 Started studying algorithms more in-depth with Grokking Algorithms (added source code files)
 
 [3/15/24]\
-Python coding interview succeeded! I got an email that I received "very positive feedback" from my first interview and got invited to the second/final round (behavioral).
+Python coding interview was successful - I got an email that I received "very positive feedback" from my first interview and got invited to the second/final round (behavioral).
 
 [3/20/24]\
 It's spring break, and now I can solve some medium problems comfortably. I've been solving leetcode problems pretty consistently, but not all of them are uploaded here. Completed behavioral interview today.
