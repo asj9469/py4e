@@ -3,11 +3,9 @@
 # My initial approach
 # time complexity: O(n log n)
 # space complexity: O(n)
+
 class Solution:
     def lastStoneWeight(self, stones: List[int]) -> int:
-
-        # time complexity: O(n log n)
-        # space complexity: O(n)
 
         if len(stones) == 1:
             return stones[0]
