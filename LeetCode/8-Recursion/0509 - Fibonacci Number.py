@@ -24,9 +24,17 @@
 # Runtime 39 ms Beats 55.73% of users with Python3
 # Memory 16.68 MB Beats 51.43% of users with Python3
 
-## Dynamic Programming Approach (Bottom Up) learned by https://www.youtube.com/watch?v=Hdr64lKQ3e4
 
 class Solution:
+
+    # recursion approach
+    def fib(self, n: int) -> int:
+        if n == 0 or n == 1:
+            return n
+
+        return self.fib(n - 1) + self.fib(n - 2)
+
+    # Dynamic Programming Approach (Bottom Up) learned by https://www.youtube.com/watch?v=Hdr64lKQ3e4
     def fib(self, n: int) -> int:
 
         # edge case handling
