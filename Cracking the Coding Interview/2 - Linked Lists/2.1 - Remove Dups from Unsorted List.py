@@ -1,4 +1,4 @@
-# write code to remove duplicates from an unsorted linked list
+# write code to remove duplicates from an UNSORTED linked list
 # FOLLOW UP: how would you solve this problem if a temporary buffer (extra space) is not allowed?
 
 class ListNode:
