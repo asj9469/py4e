@@ -1,4 +1,5 @@
 # https://leetcode.com/problems/maximum-subarray/
+# greedy algorithm
 
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
